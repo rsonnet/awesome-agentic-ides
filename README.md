@@ -6,19 +6,19 @@
 
 | Tool | Type | Git Worktree GUI | Terminal Agent | No Auth Required | Open Source | Notes |
 |---|---|:---:|:---:|:---:|:---:|---|
-| [Agentastic](https://agentastic.app) | GUI | ✅ | ✅ | ✅ | ❌ | Perfect for worktree management and terminal integration. Code browsing needs better UX. `$ code .` works just fine from the terminal |
-| [Emdash](https://emdash.dev) | GUI | ✅ | ✅ | ✅ | ✅ | slow on interactions |
+| [Agentastic](https://www.agentastic.dev/) | GUI | ✅ | ✅ | ✅ | ❌ | Perfect for worktree management and terminal integration. Code browsing needs better UX. `$ code .` works just fine from the terminal |
+| [Emdash](https://emdash.sh) | GUI | ✅ | ✅ | ✅ | ✅ | slow on interactions |
 | [Warp](https://www.warp.dev) | Terminal | ❌ | ✅ | ❌ | ❌ | Built-in AI only; no worktree GUI |
 | [cmux](https://github.com/nicholasgasior/cmux) | Terminal | ❌ | ✅ | ✅ | ✅ | Splitting + sidebar terminals, slick UX, no code viewer |
 | [dmux](https://github.com/zdcthomas/dmux) | TUI | ❌ | ✅ | ✅ | ✅ | Pain to use |
 | [1code.dev](https://1code.dev) | GUI | - | ❌ | ❌ | - | Wraps Claude/Codex APIs directly; asks for API keys instead of using CLI agents |
 | [Air.dev](https://air.dev) | GUI | - | ❌ | ❌ | - | Requires Claude/Codex login |
-| [Superset.sh](https://superset.sh) | GUI | - | - | ❌ | - | Requires GitHub/Google login |
-| [Conductor](https://conductor.build) | GUI | - | - | ❌ | - | Requires GitHub login |
-| [Catnip](https://catnip.sh) | GUI | - | - | - | - | Requires Docker/Colima; complex install |
-| [Fleetcode](https://fleetcode.dev) | GUI | - | - | - | - | npm install issues |
+| [Superset.sh](https://superset.sh) | GUI | - | - | ❌ | ❌ | Requires GitHub/Google login |
+| [Conductor](https://conductor.build) | GUI | - | - | ❌ | ❌ | Requires GitHub login |
+| [Catnip](https://github.com/wandb/catnip) | GUI | - | - | - | ✅ | Requires Docker/Colima; complex install |
+| [Fleetcode](https://github.com/built-by-as/FleetCode) | GUI | - | - | - | ✅ | npm install issues |
 
-**Legend:** ✅ supported · ❌ not supported · `-` unknown/not applicable
+**Legend:** ✅ supported · ❌ not supported · `-` unknown/not applicable/couldn't verify
 
 ## Column Definitions
 
