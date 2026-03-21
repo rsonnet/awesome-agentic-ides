@@ -14,6 +14,7 @@
 | [1code.dev](https://1code.dev) | GUI | - | ❌ | ❌ | ✅ | Wraps Claude/Codex APIs directly; asks for API keys instead of using CLI agents |
 | [Air.dev](https://air.dev) | GUI | - | ❌ | ❌ | ❌ | Requires Claude/Codex login |
 | [Superset.sh](https://superset.sh) | GUI | - | - | ❌ | ✅ | Requires GitHub/Google login |
+| [Superzent](https://github.com/currybab/superzent) | GUI | ✅ | ✅ | ✅ | ✅ | fork of the Zed editor inspired by superset.sh |
 | [Conductor](https://conductor.build) | GUI | - | - | ❌ | ❌ | Requires GitHub login |
 | [Catnip](https://github.com/wandb/catnip) | GUI | - | - | - | ✅ | Requires Docker/Colima; complex install |
 | [Fleetcode](https://github.com/built-by-as/FleetCode) | GUI | - | - | - | ✅ | npm install issues |
