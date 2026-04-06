@@ -4,20 +4,22 @@
 
 ## Comparison
 
-| Tool | Type | Git Worktree GUI | Terminal Agent | No Auth Required | Open Source | Notes |
-|---|---|:---:|:---:|:---:|:---:|---|
-| [Agentastic](https://www.agentastic.dev/) | GUI | ✅ | ✅ | ✅ | ❌ | Perfect for worktree management and terminal integration. Code browsing needs better UX. `$ code .` works just fine from the terminal |
-| [Emdash](https://emdash.sh) | GUI | ✅ | ✅ | ✅ | ✅ | slow on interactions. easy to open worktree with fav editor |
-| [Warp](https://www.warp.dev) | Terminal | ❌ | ✅ | ✅ | ❌ | Built-in AI only; no worktree GUI |
-| [cmux](https://github.com/nicholasgasior/cmux) | Terminal | ❌ | ✅ | ✅ | ✅ | Splitting + sidebar terminals, slick UX, no code viewer |
-| [dmux](https://github.com/zdcthomas/dmux) | TUI | ❌ | ✅ | ✅ | ✅ | Pain to use |
-| [1code.dev](https://1code.dev) | GUI | - | ❌ | ❌ | ✅ | Wraps Claude/Codex APIs directly; asks for API keys instead of using CLI agents |
-| [Air.dev](https://air.dev) | GUI | - | ❌ | ❌ | ❌ | Requires Claude/Codex login |
-| [Superset.sh](https://superset.sh) | GUI | - | - | ❌ | ✅ | Requires GitHub/Google login |
-| [Superzent](https://github.com/currybab/superzent) | GUI | ✅ | ✅ | ✅ | ✅ | fork of the Zed editor inspired by superset.sh |
-| [Conductor](https://conductor.build) | GUI | - | - | ❌ | ❌ | Requires GitHub login |
-| [Catnip](https://github.com/wandb/catnip) | GUI | - | - | - | ✅ | Requires Docker/Colima; complex install |
-| [Fleetcode](https://github.com/built-by-as/FleetCode) | GUI | - | - | - | ✅ | npm install issues |
+| Tool | Git Worktree GUI | Terminal Agent | No Auth Required | Open Source | Diff Viewer | Notes |
+|---|:---:|:---:|:---:|:---:|:---:|---|
+| [Emdash](https://emdash.sh) | ✅ | ✅ | ✅ | ✅ | ✅ | slow on interactions. open worktree with editor of choice |
+| [Superset.sh](https://superset.sh) | ✅ | ✅ | ✅ | ✅ | ✅ | packaged installer requires login. git clone version doesn't require login. so have to manually update from latest master/release. good worktree support with sub workspaces. slow  |
+| [Hive](https://github.com/morapelker/hive) | ✅ | ✅ | ✅ | ✅ | ✅ | a bit buggy. opened editor panes are not synced with worktrees |
+| [Superzent](https://github.com/currybab/superzent) | ✅ | ✅ | ✅ | ✅ | ✅ | fork of the Zed editor inspired by superset.sh |
+| [1code.dev](https://1code.dev) | ✅ | ❌ | ❌ | ✅ | ✅ | Wraps Claude/Codex APIs directly; asks for API keys instead of using CLI agents. main agent pane is owned by the tool and cannot simply have a terminal running claude/codex in main agent pane |
+| [Agentastic](https://www.agentastic.dev/) | ✅ | ✅ | ✅ | ❌ | ✅ | Perfect for worktree management and terminal integration. Code browsing needs better UX. `$ code .` works just fine from the terminal. slow diff viewing |
+| [Warp](https://www.warp.dev) | ❌ | ✅ | ✅ | ❌ | ✅ | Built-in AI only; no worktree GUI |
+| [DevSwarm](https://devswarm.ai/) | ✅ | ✅ | ✅ | ❌ | ❌ | Perfect for code browsing because every worktree has its own vscode server inside it. So clicking any tab on the worktree pane on the left shows its own vscode in the main pane. But auth required and not opensource. Switching worktrees/workspaces has no lag but creating new worktrees have some lag (and it's likely due to creating vscode server instances for each) |
+| [cmux](https://github.com/nicholasgasior/cmux) | ❌ | ✅ | ✅ | ✅ | ❌ | Splitting + sidebar terminals, slick UX, no diff viewer. worktrees can be autocreated in workspaces using plugins/scripts |
+| [dmux](https://github.com/zdcthomas/dmux) | ❌ | ✅ | ✅ | ✅ | ❌ | Pain to use |
+| [Air.dev](https://air.dev) | - | - | ❌ | ❌ | ✅ | Requires Claude/Codex login |
+| [Conductor](https://conductor.build) | - | - | ❌ | ❌ | ✅ | Requires GitHub login |
+| [Catnip](https://github.com/wandb/catnip) | - | - | - | ✅ | - | Requires Docker/Colima; complex install |
+| [Fleetcode](https://github.com/built-by-as/FleetCode) | - | - | - | ✅ | - | npm install issues |
 
 **Legend:** ✅ supported · ❌ not supported · `-` unknown/not applicable/couldn't verify
 
